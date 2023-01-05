@@ -1,8 +1,10 @@
 
-
-keys=["Ten","Twenty","Thirty"]
-values=[10,20,30]
-dict_array:dict={}
-for i in range(0,len(keys)):
- dict_array[keys[i]] =values[i]
-print(dict_array)
+sample_dict={
+    "name":"Kelly",
+    "age":25,
+    "salary":8000,
+    "city":"New york"
+}
+sample_dict.pop("name")
+sample_dict.pop("salary")
+print(sample_dict)
