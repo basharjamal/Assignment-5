@@ -1,6 +1,7 @@
 
 
 numbers=[12,75,150,180,145,525,50]
+
 for i in range(0,len(numbers)):
     if numbers[i]>500:
         break
@@ -8,3 +9,5 @@ for i in range(0,len(numbers)):
         continue
     if numbers[i]%5==0:
         print(numbers[i])
+
+print("Done")
