@@ -1,10 +1,9 @@
+num = 76542
+reversed_num = 0
 
+while num != 0:
+    digit = num % 10
+    reversed_num = reversed_num * 10 + digit
+    num //= 10
 
-
-
-for i in range(5):
-    if i!=5-1:
-        print(i)
-    else:
-        print(i)
-        print("Done")
+print("Reversed Number: " + str(reversed_num))
