@@ -6,4 +6,4 @@ for i in range(0,len(keys)):
  dict_array={
     keys[i] :values[i]
  }
- print(dict_array)
+print(dict_array)
