@@ -1,9 +1,9 @@
-num = 76542
-reversed_num = 0
 
-while num != 0:
-    digit = num % 10
-    reversed_num = reversed_num * 10 + digit
-    num //= 10
 
-print("Reversed Number: " + str(reversed_num))
+keys=["Ten","Twenty","Thirty"]
+values=[10,20,30]
+for i in range(0,len(keys)):
+ dict_array={
+    keys[i] :values[i]
+ }
+ print(dict_array)
